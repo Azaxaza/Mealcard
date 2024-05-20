@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5dc; /* Beige background */
+}
+
+header {
+    background-color: #d2e7d0; /* Light green */
+    padding: 10px 20px;
+    border-bottom: 1px solid #91bf89; /* Dark green border */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-icon, .user-icon {
+    font-size: 24px;
+    color: #37693e; /* Dark green */
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #91bf89; /* Dark green border */
+    border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    border: 1px solid #91bf89; /* Dark green border */
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #d2e7d0; /* Light green */
+    cursor: pointer;
+}
+
+.login-button {
+    padding: 5px 15px;
+    border: 1px solid #91bf89; /* Dark green border */
+    border-radius: 4px;
+    background-color: #d2e7d0; /* Light green */
+    cursor: pointer;
+    color: #37693e; /* Dark green text */
+}
+
+main {
+    padding: 20px;
+}
+
+.recipe-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.recipe-image {
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+
+.recipe-image img {
+    width: 100%;
+    height: auto;
+}
+
+.favorite-icon {
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+    font-size: 24px;
+    color: #37693e; /* Dark green */
+    cursor: pointer;
+}
+
+.add-button, .share-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #37693e; /* Dark green */
+    color: #fff;
+    cursor: pointer;
+    width: 80%;
+    text-align: center;
+}
+
+.share-button {
+    background-color: #fff;
+    color: #37693e; /* Dark green text */
+    border: 1px solid #37693e;
+}
+
+.recipe-details {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish-info, .shopping-list {
+    width: 45%;
+}
+
+h2 {
+    color: #37693e; /* Dark green */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
